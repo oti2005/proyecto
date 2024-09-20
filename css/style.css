@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(174, 134, 211);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    
+    
+    background-color: aliceblue;
+    
+}
+
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+article{
+    padding: 5px;
+    margin: 5px;
+    width: 320px;
+    border: 5px solid black;
+    background-color: white;
+    
+    
+}
+.titulo{
+    word-wrap: break-word;
+}
