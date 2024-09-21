@@ -1,5 +1,6 @@
 body{
     background-color: rgb(174, 134, 211);
+    
 }
 *{
     margin: 0;
@@ -7,10 +8,21 @@ body{
     box-sizing: border-box;
 }
 
-h1{
-    text-align: center;
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: 10px solid purple;
+    padding: 10px;
+    background-color: purple;
 }
 
+.title{
+    display: flex;
+}
+h1{
+    margin: 5px;
+}
 main{
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +32,8 @@ main{
     width: 250px;
     height: 300px;
     margin: 10px;
+    
+
     
     
     background-color: aliceblue;
@@ -45,4 +59,19 @@ article{
 }
 .titulo{
     word-wrap: break-word;
+}
+.clave1{
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    border: 5px solid black;
+    color: red;
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+    
+}
+.btnBuscar{
+    
 }
