@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(134, 183, 211);
+    background-color:rgb(241, 128, 147);
     
 }
 *{
@@ -10,19 +10,26 @@ body{
 
 header{
     display: flex;
-    justify-content: space-between;
-    text-align: left;
-    border: 10px solid rgb(65, 110, 194);
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    border: 10px solid rgb(206, 35, 92);
     padding: 10px;
-    background-color:rgb(65, 110, 194);
+    background-color:rgb(206, 35, 92);
 }
 
 .title{
     display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
 }
 h1{
     margin: 5px;
     font-size:40px;
+    text-align: center;
 }
 main{
     display: flex;
@@ -99,6 +106,8 @@ input::placeholder{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    
   
 }
 .btnBuscar:hover,
@@ -110,21 +119,44 @@ input::placeholder{
 
 nav{
     text-align: center;
-    background: orange ;
+    background: rgb(206, 93, 112);
  }
  .boton1{
-    background-color: orange;
+    background-color:rgb(206, 93, 112);
+    border: 1px solid rgb(206, 93, 112);
+    height:30px;
+    width: 90px;
+    font-size: 15px;
+    margin-right: 100px;
+    margin: 5px;
  }
  .boton2{
-    background-color: orange;
-
+    background-color: rgb(206, 93, 112);
+    border: 1px solid rgb(206, 93, 112);
+    height:30px;
+    width: 90px;
+    font-size: 15px;
+    margin-right: 100px;
+    margin: 5px;
  }
 
  .boton3{
-    background-color: orange;
+    background-color: rgb(206, 93, 112);
+    border: 1px solid rgb(206, 93, 112);
+    height:30px;
+    width: 90px;
+    font-size: 15px;
+    margin-right: 100px;
+    margin: 5px;
  }
  .boton4{
-    background-color: orange;
+    background-color:rgb(206, 93, 112);
+    border: 1px solid rgb(206, 93, 112);
+    height:30px;
+    width: 90px;
+    font-size: 15px;
+    margin-right: 100px;
+    margin: 5px;
  }
 
  
